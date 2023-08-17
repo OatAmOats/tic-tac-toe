@@ -7,6 +7,46 @@
     <title>Tic-Tac-Toe</title>
 </head>
 <body>
+    <div class="container">
+        <div class="header">
+            <div class="title">Tic-Tac-Toe</div>
+            <div class="playerselect">
+                <button class="clrbtn">clear</button>
+            </div>
+        </div>
+        <div class="center">
+            <div class="left">
+                <div class="turn" id="left" class="current">Player One</div>
+                <div class="x">X</div>
+            </div>
+            <div class="gameboard">
+                <div class="box" id="aa"></div>
+                <div class="box" id="ab"></div>
+                <div class="box" id="ac"></div>
+                <div class="box" id="ba"></div>
+                <div class="box" id="bb"></div>
+                <div class="box" id="bc"></div>
+                <div class="box" id="ca"></div>
+                <div class="box" id="cb"></div>
+                <div class="box" id="cc"></div>
+            </div>
+            <div class="right">
+                <div class="turn" id="right">Player Two</div>
+                <div class="o">O</div>
+            </div>
+        </div>
+        
+    </div>
+    <dialog class="endgame">
+        <div class="winlose"></div>
+        <div class="butandlabel">
+            <div class="butlabel">Click here to reset the game!</div>
+            <button class="reset">reset</button>
+        </div>
+        
+    </dialog>
+
+
     <script src="javascript.js"></script>
 </body>
 </html>
